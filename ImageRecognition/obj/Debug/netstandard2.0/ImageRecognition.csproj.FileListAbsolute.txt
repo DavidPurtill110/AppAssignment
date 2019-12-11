@@ -1,0 +1,13 @@
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\bin\Debug\netstandard2.0\ImageRecognition.deps.json
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\bin\Debug\netstandard2.0\ImageRecognition.dll
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\bin\Debug\netstandard2.0\ref\ImageRecognition.dll
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\bin\Debug\netstandard2.0\ImageRecognition.pdb
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\ImageRecognition.csprojAssemblyReference.cache
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\ImageRecognition.AssemblyInfoInputs.cache
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\ImageRecognition.AssemblyInfo.cs
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\ImageRecognition.dll
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\ref\ImageRecognition.dll
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition\obj\Debug\netstandard2.0\ImageRecognition.pdb

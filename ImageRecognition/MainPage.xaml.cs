@@ -22,11 +22,11 @@ namespace ImageRecognition
         {
             try
             {
-                var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() {PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium });
-                var stream = photo.GetStream();
-               // if (photo != null)
-                  //  Preview.Source = ImageSource.FromStream(() => { return photo.GetStream(); });
 
+                var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() {PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium, SaveToAlbum = true});
+                var stream = photo.GetStream();
+
+                Preview.Source = photo.Path;
                 var analyzer = new ImageAnalyzer();
                 var data = await analyzer.AnalyzeImage(stream);
                 ImgDescription.Text = data.Description;

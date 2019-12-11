@@ -9,8 +9,10 @@ namespace ImageRecognition
         {
 
         }
+        // gets and sets for description
         public string Description { get; set; }
 
+        // gets and sets for list of tags
         public List<string> Tags { get; set; }
     }
 }
