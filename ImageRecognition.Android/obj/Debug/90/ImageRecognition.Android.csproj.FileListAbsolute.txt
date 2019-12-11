@@ -504,3 +504,8 @@ C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\
 C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\res\mipmap-hdpi\ic_launcher.png
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\res\mipmap-mdpi\ic_launcher.png
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\David\Source\Repos\AppAssignment\ImageRecognition.Android\obj\Debug\90\res\mipmap-xxhdpi\ic_launcher.png

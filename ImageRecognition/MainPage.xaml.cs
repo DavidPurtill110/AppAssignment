@@ -18,14 +18,19 @@ namespace ImageRecognition
             InitializeComponent();
         }
 
+        // button to take and analyze the image.
+        // also saving the image with this button.
         private async void CameraButton_Clicked(object sender, EventArgs e)
         {
+            // try catch for an error i was getting with this snippet of code({PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium}) 
+            //for the image been to big it was causing a bad request error
             try
             {
-
-                var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() {PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium, SaveToAlbum = true});
+                // setting the size for the image and saving it to the phone gallery 
+                var photo = await Plugin.Media.CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions() {PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium, SaveToAlbum = true });
                 var stream = photo.GetStream();
 
+                // calling back the image taken with the camera to be viewed on the screen
                 Preview.Source = photo.Path;
                 var analyzer = new ImageAnalyzer();
                 var data = await analyzer.AnalyzeImage(stream);
@@ -38,7 +43,5 @@ namespace ImageRecognition
             }
             
         }
-
-        
     }
 }

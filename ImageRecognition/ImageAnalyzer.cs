@@ -29,7 +29,6 @@ namespace ImageRecognition
                 VisualFeatureTypes.Tags
             };
 
-
             var imageRes = await azureImageAnalyzer.AnalyzeImageInStreamAsync(imageData, visualFetures);
             var result = new ImageResult();
             result.Description = imageRes.Description.Captions[0].Text;
